@@ -112,7 +112,7 @@ export class Lesson2 {
         [AnswerChoice.C, "Dev Containers"],
         [AnswerChoice.D, "Source Control"],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.A, // Replace `UNANSWERED` with the correct answer.
     );
   }
 
@@ -126,7 +126,7 @@ export class Lesson2 {
         [AnswerChoice.C, "Playing music"],
         [AnswerChoice.D, "Managing source control"],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.B, // Replace `UNANSWERED` with the correct answer.
     );
   }
 
@@ -140,7 +140,7 @@ export class Lesson2 {
         [AnswerChoice.C, "cd"],
         [AnswerChoice.D, "mkdir"],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.C, // Replace `UNANSWERED` with the correct answer.
     );
   }
 
@@ -154,7 +154,7 @@ export class Lesson2 {
         [AnswerChoice.C, "cd"],
         [AnswerChoice.D, "mkdir"],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.D, // Replace `UNANSWERED` with the correct answer.
     );
   }
 
@@ -168,7 +168,7 @@ export class Lesson2 {
         [AnswerChoice.C, "Remove a file or directory"],
         [AnswerChoice.D, "Copy a file or directory"],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.A, // Replace `UNANSWERED` with the correct answer.
     );
   }
 
@@ -182,7 +182,7 @@ export class Lesson2 {
         [AnswerChoice.C, "⌘ + Q"],
         [AnswerChoice.D, '⌘ + S, then type "terminal"'],
       ]),
-      AnswerChoice.UNANSWERED, // Replace `UNANSWERED` with the correct answer.
+      AnswerChoice.C, // Replace `UNANSWERED` with the correct answer.
     );
   }
 }
