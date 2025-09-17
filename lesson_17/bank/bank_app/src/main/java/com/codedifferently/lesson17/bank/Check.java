@@ -2,12 +2,12 @@ package com.codedifferently.lesson17.bank;
 
 import com.codedifferently.lesson17.bank.exceptions.CheckVoidedException;
 
-/** Represents a check. */
+/** Represents a check that can only be written against CheckingAccount. */
 public class Check {
 
   private final String checkNumber;
   private final double amount;
-  private final CheckingAccount account;
+  private final CheckingAccount account; // Keeps CheckingAccount to maintain existing behavior
   private boolean isVoided = false;
 
   /**
@@ -15,7 +15,7 @@ public class Check {
    *
    * @param checkNumber The check number.
    * @param amount The amount of the check.
-   * @param account The account the check is drawn on.
+   * @param account The checking account the check is drawn on.
    */
   public Check(String checkNumber, double amount, CheckingAccount account) {
     if (amount < 0) {
@@ -41,7 +41,8 @@ public class Check {
   }
 
   /**
-   * Deposits the check into an account.
+   * Deposits the check into an account. Enhanced to accept any Account type for deposits, but still
+   * draws from CheckingAccount.
    *
    * @param toAccount The account to deposit the check into.
    */
