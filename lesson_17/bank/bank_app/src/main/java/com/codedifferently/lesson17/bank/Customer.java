@@ -3,7 +3,6 @@ package com.codedifferently.lesson17.bank;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
-
 import main.java.com.codedifferently.lesson17.bank.CustomerType;
 
 /** Represents a customer of the bank. */
@@ -14,22 +13,21 @@ public class Customer {
   private final Set<CheckingAccount> accounts = new HashSet<>();
   private final CustomerType customerType;
 
-
   /**
    * Creates a new customer.
    *
    * @param id The ID of the customer.
    * @param name The name of the customer.
    */
-public Customer(UUID id, String name, CustomerType customerType) {
+  public Customer(UUID id, String name, CustomerType customerType) {
     this.id = id;
     this.name = name;
     this.customerType = customerType;
-}
+  }
 
-public CustomerType getCustomerType() {
+  public CustomerType getCustomerType() {
     return customerType;
-}
+  }
 
   /**
    * Gets the ID of the customer.
